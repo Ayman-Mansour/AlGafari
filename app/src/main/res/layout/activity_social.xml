@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tech2go.example.com.algafari.SocialActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="32dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/facebook"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3475c9"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:text="Facebook" />
+
+        <Button
+            android:id="@+id/twitter"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="#52a8e6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:text="Twitter" />
+
+        <Button
+            android:id="@+id/instagram"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ef715a"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            android:text="Instagram" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

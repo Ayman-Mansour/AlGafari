@@ -1,0 +1,333 @@
+<!DOCTYPE resources [
+
+    ]>
+<resources>
+    <string name="app_name">Al Gafari</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabb">TabbActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="mission">Deliver smart, responsive, end-to-end Engineer; Procure; Construct &amp;
+        Commission (EPCC) solution to the Infrastructure, Construction &amp; MEP Sectors in Sudan.
+    </string>
+    <string name="vision">Participate in country development by serving our client using cutting
+        edge tools"/"practices and know-how and rewarding our shares holders, while maintaining
+        environment in our beloved country Sudan.
+    </string>
+    <string name="val"><b><i>These serve as guidelines for our conduct and behavior as we work
+        towards our vision.</i></b>"\n\n"
+    <b>Integrity:</b>"  "Conducting all cur business with integrity. in a manner that is honest and
+        fair to gain credibility
+    and trust amongst our clients."\n\n"
+        <b>Responsibility:</b>"  "Showing responsibility by conducting ell our activities in a safe
+        and responsible manner
+    protecting the well being of individuals, the community and the environment."\n\n"
+        <b>Improving:</b>"  "Constantly improving our equipment and systems by embracing technology
+        and benchmarking
+    world"'"s best practice."\n\n\n\n"
+</string>
+    <!--<string name="infrastructure_des"><b>GISCO Solutions For Infrastructure Sector : "\n\n" </b> -->
+    <!--&#8226; EPCC of Electrical Overhead lines/UUnderground Cables. -->
+    <!--&#8226; EPCC of Communication Trunk Lines(Fiber-Optic). -->
+    <!--#8226; EPCC of Water Pipelines.></string>-->
+
+    <string-array name="services">
+        <item>Infrastructure Solutions </item>
+        <item>Construction Solutions </item>
+        <item>HVAC Systems Solutions </item>
+        <item>Fire Protection Systems Solutions </item>
+        <item>Electrical Systems Solutions </item>
+        <item>Plumbing Systems Solutions </item>
+        <item>Security Systems Solutions </item>
+        <item>Networking Systems Solutions </item>
+    </string-array>
+    <string-array name="warning">
+        <item>Infrastructure Solutions </item>
+        <item>Construction Solutions </item>
+        <item>HVAC Systems Solutions </item>
+        <item>Fire protection Systems Solutions </item>
+        <item>Electrical Systems Solutions </item>
+        <item>Infrastructure Solutions </item>
+        <item>Construction Solutions </item>
+        <item>HVAC Systems Solutions </item>
+        <item>Fire protection Systems Solutions </item>
+        <item>Electrical Systems Solutions </item>
+        <item>Infrastructure Solutions </item>
+        <item>Construction Solutions </item>
+        <item>HVAC Systems Solutions </item>
+        <item>Fire protection Systems Solutions </item>
+        <item>Electrical Systems Solutions </item>
+    </string-array>
+    <string-array name="transition">
+        <item>accidant</item>
+        <item>accidant</item>
+        <item>accidant</item>
+        <item>accidant</item>
+        <item>accidant</item>
+        <item>accidant</item>
+        <item>accidant</item>
+        <item>accidant</item>
+    </string-array>
+    <string name="infrastructure_des">
+    <b>"GISCO Solutions For Infrastructure Sector :\n\n"</b>
+        "   &#8226; EPCC of Electrical Overhead lines/UUnderground Cables.\n"
+        "   &#8226; EPCC of Communication Trunk Lines(Fiber-Optic).\n"
+        "   &#8226; EPCC of Water Pipelines.\n"
+    </string>
+    <string name="construction_des">
+        <b>"GISCO Solutions For Construction Sector :\n\n"</b>
+        "   &#8226; EPCC of Pipelines Trunk &amp; Lines.\n"
+        "   &#8226; O&amp;M Storage Tanks.\n"
+        "   &#8226; O&amp;M of Water/Waste Treatment Systems.\n"
+    </string>
+    <string name="hvac_des">
+        <b>"GISCO Solutions For Central &amp; Remote Systems Solutions covers wide range of applications includes :\n\n"</b>
+        "   &#8226; Residential.\n"
+        "   &#8226; Industrial.\n"
+        "   &#8226; Offices.\n"
+        "   &#8226; Hospitals.\n"
+    </string>
+    <string name="fire_protection_des">
+        <b>"GISCO Fire Protection Systems Solutions covers :\n\n"</b>
+        "   &#8226; Fire Prevention Systems .\n"
+        "   &#8226; Smoke/Heat/Gas/Flame Detection.\n"
+        "   &#8226; Emergency System(Sings, Lighting, Self Protection).\n"
+        "   &#8226; Automatic Water Extinguishing Systems (Wet, Dry, Preaction/Deluge).\n"
+        "   &#8226; Automatic Foam-Water Extinguishing Systems.\n"
+        "   &#8226; Automatic Gas Suppression Systems (CO<sub>2</sub>, FM200, Aragonite, N<sub>2</sub>).\n"
+    </string>
+    <string name="electrical_des">
+        <b>"GISCO Electrical Systems Solutions covers :\n\n"</b>
+        "   &#8226; High/Low Voltage Power Systems.\n"
+        "   &#8226; Indoor/Outdoor Lighting Systems.\n"
+    </string>
+    <string name="plumbing_des">
+        <b>"GISCO Plumbing Systems Solutions covers :\n\n"</b>
+        "   &#8226; Water Treatment Systems.\n"
+        "   &#8226; Sewage Treatment Systems.\n"
+        "   &#8226; Waste Treatment Systems\n"
+        "   &#8226; Garden Irrigation Water Systems.\n"
+    </string>
+    <string name="security_des">
+        <b>"GISCO Security Systems Solutions covers :\n\n"</b>
+        "   &#8226; CCTV Surveillance Systems.\n"
+        "   &#8226; Access Control Systems.\n"
+        "   &#8226; Guard Monitoring Systems\n."
+        "   &#8226; Burglar Alarm Systems.\n"
+        "   &#8226; Gates Barriers.\n"
+    </string>
+    <string name="networking_des">
+        <b>"GISCO Networking Systems Solutions covers :\n\n"</b>
+        "   &#8226; Network Data Systems.\n"
+        "   &#8226; Telephone Systems.\n"
+        "   &#8226; Sound Systems.\n"
+        "   &#8226; TV Systems.\n"
+        "   &#8226; Queuing Systems.\n"
+    </string>
+    <string name="low_current_des">
+        <b>"GISCO Low Current Solutions covers :\n\n"</b>
+        "   &#8226; Fire Prevention Systems .\n"
+        "   &#8226; Smoke/Heat/Gas/Flame Detection.\n"
+        "   &#8226; Network Data Systems.\n"
+        "   &#8226; Telephone Systems.\n"
+        "   &#8226; Sound Systems.\n"
+        "   &#8226; CCTV Surveillance Systems.\n"
+        "   &#8226; Access Control Systems.\n"
+        "   &#8226; Burglar Alarm Systems.\n"
+    </string>
+    <string name="lightning_des">
+        <b>"GISCO Lightning Systems Solutions covers :\n\n"</b>
+        "   &#8226; Indoor/Outdoor Lighting Systems.\n"
+        "   &#8226; Technical Assistance.\n"
+        "   &#8226; Lightning Design Support.\n"
+        "   &#8226; After Sale Services.\n"
+        "   &#8226; Warranties.\n"
+        "   &#8226; Spare Parts.\n"
+    </string>
+    <string name="qhse_title">"<b>QHSE Policy Statement</b>"</string>
+    <string name="qhse_content">
+    "The long-term business services success of GISCO depends on our ability to continually improve the quality of our services and products while protecting people and the environment. Emphasis must be placed on ensuring human health, and community goodwill. This commitment is in the best interests of our customers. Our employees and contractors, our shareholders, and the communities in which we live and work.
+GISCO requires the active commitment to, and accountability for QHSE from all employees and contractors. Line management has a leadership role in the communication and implementation of, and ensuring compliance with QHSE policies and standards. We are committed to:
+•	Protect, and strive for improvement of the health, safety and security of our people at all times ;
+•	Eliminate Quality non-conformances and HSE accidents ;
+•	Meet specified customer requirements and ensure continuous customer satisfaction ;
+•	Set Quality &amp; HSE performance objectives, measure results, asses and continually improve processes, services and product quality, through the use of an effective management system ;
+•	Plan for, respond to and recover from any emergency, crisis and business disruption ;
+•	Minimize our impact on the environment through pollution prevention, reduction of natural resources consumption and emissions, and the reduction and recycling of waste ;
+•	Apple our technical skills to all HSE aspects in the design and engineering of our services and products ;
+•	Communicate openly with shareholders and ensure an understanding of our QHSE policies, standards, programs and performance. Reward outstanding QHSE performance ;
+Improve our performance of  issues relevant to our shareholders that are of global concern and on which we can have an impact, and share with them our knowledge of successful QHSE programs and initiatives. This policy shall be regularly reviewed to ensure ongoing suitability. The commitments listed are in addition to our basic obligation to comply with GISCO standards, as well as all applicable laws and regulations where we operate. This is critical to our business success because it allows us to systematically minimize all losses and adds value for all our shareholders.
+"
+</string>
+    <string-array name="projects">
+        <item>Plumbing &amp; Construction Solution</item>
+        <item>Construction Solution</item>
+        <item>Networking &amp; Security Systems</item>
+        <item>Networking System</item>
+        <item>Supply &amp; installation Electrical works</item>
+        <item>Construction &amp; Electrical Systems</item>
+        <item>Supply &amp; installation Electrical works &amp; Supply of Lighting Fixtures &amp; Supply of Generator Set </item>
+        <item>Supply &amp; installation Electrical works &amp; Supply of Lighting Fixtures</item>
+        <item>Supply &amp; installation Electrical works &amp; Supply of Lighting Fixtures</item>
+        <item>Supply &amp; installation Electrical works &amp; Supply of Lighting Fixtures</item>
+        <item>Study and Re-Design</item>
+        <item>Security System</item>
+        <item>Electrical System</item>
+        <item>Engineering Consulting</item>
+        <item>Construction Solution</item>
+        <item>Design</item>
+        <item>Study of Electrical problems &amp; new integrated Design</item>
+        <item>Design &amp; Supervision</item>
+        <item>Study of Electrical problems &amp; new integrated Design</item>
+        <item>Design Electrical System</item>
+        <item>Design Electrical System</item>
+        <item>Supply of Lighting Fixtures</item>
+        <item>Design &amp; Supervision</item>
+        <item>Design</item>
+        <item>Design &amp; Execution</item>
+        <item>Design</item>
+        <item>Design (Lighting)</item>
+        <item>Design</item>
+    </string-array>
+    <string-array name="certificates">
+        <item>Certificate of Operating</item>
+        <item>Certificate of exclusive distribute(Neo Neon)</item>
+        <item>Certificate of exclusive distribute(GRUPPO DISANO)</item>
+        <item>Certificate of accomplishment(RENAISSANCE)</item>
+        <item>Certificate of accomplishment(RENAISSANCE)</item>
+        <item>Certificate of accomplishment(RENAISSANCE)</item>
+        <item>Certificate of accomplishment(Kojok)</item>
+        <item>Certificate of accomplishment(NOON)</item>
+        <item>Certificate of accomplishment(NOON)</item>
+        <item>Certificate of accomplishment(Al waha)</item>
+        <item>Certificate of accomplishment(Al faisal)</item>
+        <item>Certificate of accomplishment(Myslon)</item>
+    </string-array>
+    <string-array name="clients">
+        <item>Drake &amp; Scull International PJSc(DSI) (Sudan)</item>
+        <item>Telsol System Development Co. Ltd. (Sudan)</item>
+        <item>Zain Telephone Co. Ltd.</item>
+        <item>Canar Telecommunication Co. Ltd.</item>
+        <item>Ministry of Defense</item>
+        <item>Bank of Khartoum</item>
+        <item>Faisal Islamic Bank</item>
+        <item>Sudanese French Bank</item>
+        <item>Omdurman National Bank</item>
+        <item>Arab Sudanese Bank</item>
+        <item>National Television Building</item>
+        <item>Haggar Cigarette &amp; Tobacco Factory Ltd.</item>
+        <item>Al Waha Mall</item>
+        <item>Noon Consulting Co. Ltd.</item>
+        <item>Myslon Investment Co. Ltd.</item>
+        <item>Alfadel Abd-Alrhman Office Building</item>
+        <item>Masjed Alnilein </item>
+        <item>Atif Abd-Algader Commercial Tower</item>
+        <item>National Authority for Water</item>
+        <item>Nabeel Mahmoud Building</item>
+        <item>Alsayed Makki Residential Tower </item>
+        <item>Hussam Badaweih</item>
+        <item>Alshatee Residential Towers</item>
+        <item>Amlak Tower for Apartments</item>
+        <item>The Diplomatic Club</item>
+        <item>Africa Tower</item>
+        <item>Garden Club</item>
+        <item>Ports-Sudan data center</item>
+    </string-array>
+    <string name="title_activity_location">Map</string>
+</resources>

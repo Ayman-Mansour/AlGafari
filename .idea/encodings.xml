@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tech2go/example/com/algafari/Information.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/fragment_enter_left.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/fragment_enter_rigth.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/fragment_exit_left.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/fragment_exit_right.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/cardv11.png" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/cardv12.png" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/cardv13.png" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/cardv14.jpg" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/cardv15.png" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/w_0.png" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/w_1.png" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/w_2.png" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/w_3.png" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/w_4.png" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_certificates_list.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_clients_list.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_projects_list.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/transition" charset="windows-1256" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
